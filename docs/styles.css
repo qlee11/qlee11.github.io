@@ -83,9 +83,10 @@ body{
 
 }
 
-.title{
+h1{
+    font-family: 'Doom 2016 Left', sans-serif;
+    font-family: 'Doom 2016 Right', sans-serif;
     font-family: 'Doom 2016 Text', sans-serif;
-    src: url(Doom2016Text-GOlBq.ttf);
     font-size: 200px;
     text-align: center;
     color: white;
