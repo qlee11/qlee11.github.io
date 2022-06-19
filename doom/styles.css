@@ -1,0 +1,268 @@
+
+
+.kek {
+
+    position: relative;
+    /*margin-top: 200px;
+    margin-left: 360px;
+    margin-right: 1040px;
+    */
+    border-collapse: collapse;
+    opacity: 1;
+    display:block;
+    width: 500px;
+    height: auto;
+    border: 10px solid darkred;
+    border-style: outset;
+    border-radius: 25px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: transparent
+    
+}
+.possum {
+    position:relative;
+    /*margin-top: -540px;
+    margin-left: 880px;
+    margin-right: 360px;
+    */
+    opacity: 1;
+    display:block;
+    width: 500px;
+    height: 500px;
+    border: 10px solid darkred;
+    border-style: outset;
+    border-radius: 25px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: transparent
+    
+}
+.coon {
+
+    position: relative;
+    /*margin-left: 360px;
+    margin-right: 1040px;*/
+    opacity: 1;
+    display:block;
+    width: 500px;
+    height: 500px;
+    border: 10px solid darkred;
+    border-style: outset;
+    border-radius: 25px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: transparent
+    
+}
+.dog {
+
+    position: relative;
+    /*margin-top: -520px;
+    margin-left: 880px;
+    margin-right: 360px;*/
+    opacity: 1;
+    display:block;
+    width: 500px;
+    height: 500px;
+    border: 10px solid darkred;
+    border-style: outset;
+    border-radius: 25px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: transparent
+    
+}
+body{
+
+    background-image: url("doom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+h1{
+    font-family: 'Doom 2016 Left', sans-serif;
+    font-family: 'Doom 2016 Right', sans-serif;
+    font-family: 'Doom 2016 Text', sans-serif;
+    font-size: 200px;
+    text-align: center;
+    color: white;
+}
+
+.container_a {
+
+    position: relative;
+    left: 360px;
+    height: 500px;
+    width: 500px;
+
+}
+
+
+.overlay_a {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+.text_a {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+    
+  }
+
+
+.container_a:hover .overlay_a {
+    opacity: 1;
+}
+
+.container_a:hover .kek {
+    opacity: 0.7;
+  }
+
+.container_b{
+    position: relative;
+    top: -498px;
+    left: 880px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.overlay_b {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+  .text_b {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+  }
+
+  .container_b:hover .possum {
+    opacity: 0.7;
+}
+
+.container_b:hover .overlay_b {
+    opacity: 1;
+}
+
+.container_c{
+    position: relative;
+    top: -478px;
+    left: 360px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.overlay_c {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+  .text_c {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+  }
+
+  .container_c:hover .coon {
+    opacity: 0.7;
+}
+
+.container_c:hover .overlay_c {
+    opacity: 1;
+}
+
+.container_d{
+    position: relative;
+    top: -978px;
+    left: 880px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.overlay_d {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+  .text_d {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+  }
+
+  .container_d:hover .dog {
+    opacity: 0.7;
+}
+
+.container_d:hover .overlay_d {
+    opacity: 1;
+}
